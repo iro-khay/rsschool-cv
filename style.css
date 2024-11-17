@@ -1,9 +1,18 @@
 /* Reset and base styles */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Применение современного шрифта */
     line-height: 1.6;
-    color: #333;
+    color: #f4f4f4;
+    background-color: #1e1e1e;
+}
+
+h1, h2, h3 {
+    font-weight: 700; /* Полужирный для заголовков */
+}
+
+p, li {
+    font-weight: 400; /* Обычный для параграфов и списков */
 }
 
 a {
@@ -23,6 +32,13 @@ a:hover {
     text-align: center;
 }
 
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Расстояние между элементами */
+}
+
 .header h1 {
     margin: 0;
     font-size: 2.5em;
@@ -31,6 +47,13 @@ a:hover {
 .header p {
     font-size: 1.2em;
     margin: 5px 0 0;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Круглая форма для аватара */
+    object-fit: cover; /* Изображение обрезается, чтобы заполнить круг */
 }
 
 /* Main styles */
@@ -71,4 +94,32 @@ h2 {
 
 .footer p {
     margin: 0;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8em; /* Меньший размер заголовка на мобильных устройствах */
+    }
+
+    h2 {
+        font-size: 1.4em; /* Меньший размер подзаголовков */
+    }
+
+    p {
+        font-size: 1em; /* Уменьшаем размер текста для удобства чтения */
+    }
+
+    .header-content {
+        flex-direction: column; /* Смена направления на вертикальное */
+        align-items: center; /* Центрирование элементов */
+    }
+
+    .avatar {
+        width: 80px;
+        height: 80px; /* Уменьшение размера аватара на мобильных устройствах */
+    }
+
+    .header h1 {
+        font-size: 2em; /* Меньший размер шрифта для заголовка на мобильных устройствах */
+    }
 }
