@@ -7,13 +7,14 @@ body {
     background-color: #1e1e1e;
 }
 
-h1, h2, h3 {
+h1 {
     font-weight: 700; /* Полужирный для заголовков */
 }
 
-p, li {
-    font-weight: 400; /* Обычный для параграфов и списков */
+h2, h3, p, li {
+    font-weight: 400; /* Полужирный для заголовков */
 }
+
 
 a {
     color: #0073e6;
