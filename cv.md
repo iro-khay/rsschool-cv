@@ -26,13 +26,13 @@ Here is a simple solution from Codewars:
 
 ## Work Experience
 
-### Junior Web Developer, ABC Corp (2022 - Present)
-- Developed responsive web applications using React and CSS.
+### Web Designer, Uztelecom (2023 - Present)
+- Redesigned webpage of Uztelecom.
 - Collaborated with teams to design user-friendly interfaces.
 
-### Intern, XYZ Solutions (2021 - 2022)
+### Web Designer, Art Craft (2021 - 2023)
 - Assisted in creating dynamic websites.
-- Wrote clean and maintainable code.
+- Designerd landign and corporate pages.
 
 ## English Proficiency
 - **Level:** B2 (Upper-Intermediate)
